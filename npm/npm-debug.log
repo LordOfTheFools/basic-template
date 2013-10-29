@@ -1,0 +1,770 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.4
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/Anastasia/ballin-ironman/npm',
+5 verbose install   [ 'semver',
+5 verbose install     'ini',
+5 verbose install     'slide',
+5 verbose install     'abbrev',
+5 verbose install     'graceful-fs',
+5 verbose install     'minimatch',
+5 verbose install     'nopt',
+5 verbose install     'rimraf',
+5 verbose install     'request',
+5 verbose install     'which',
+5 verbose install     'tar',
+5 verbose install     'fstream',
+5 verbose install     'block-stream',
+5 verbose install     'mkdirp',
+5 verbose install     'read',
+5 verbose install     'lru-cache',
+5 verbose install     'node-gyp',
+5 verbose install     'fstream-npm',
+5 verbose install     'uid-number',
+5 verbose install     'archy',
+5 verbose install     'chownr',
+5 verbose install     'npmlog',
+5 verbose install     'ansi',
+5 verbose install     'npm-registry-client',
+5 verbose install     'read-package-json',
+5 verbose install     'read-installed',
+5 verbose install     'glob',
+5 verbose install     'init-package-json',
+5 verbose install     'osenv',
+5 verbose install     'lockfile',
+5 verbose install     'retry',
+5 verbose install     'once',
+5 verbose install     'npmconf',
+5 verbose install     'opener',
+5 verbose install     'chmodr',
+5 verbose install     'cmd-shim',
+5 verbose install     'sha',
+5 verbose install     'editor',
+5 verbose install     'child-process-close',
+5 verbose install     'npm-user-validate',
+5 verbose install     'github-url-from-git',
+5 verbose install     'ronn',
+5 verbose install     'tap',
+5 verbose install     'npm-registry-mock' ] ]
+6 info preinstall npm@1.3.11
+7 warn package.json github-url-from-git@1.1.1 No repository field.
+8 warn package.json ronn@0.4.0 'repositories' (plural) Not supported.
+8 warn package.json Please pick one as the 'repository' field
+9 verbose readDependencies using package.json deps
+10 verbose already installed skipping slide@~1.1.5 /Users/Anastasia/ballin-ironman/npm
+11 verbose already installed skipping semver@~2.1.0 /Users/Anastasia/ballin-ironman/npm
+12 verbose already installed skipping ini@~1.1.0 /Users/Anastasia/ballin-ironman/npm
+13 verbose already installed skipping abbrev@~1.0.4 /Users/Anastasia/ballin-ironman/npm
+14 verbose already installed skipping graceful-fs@~2.0.0 /Users/Anastasia/ballin-ironman/npm
+15 verbose already installed skipping minimatch@~0.2.12 /Users/Anastasia/ballin-ironman/npm
+16 verbose already installed skipping rimraf@~2.2.0 /Users/Anastasia/ballin-ironman/npm
+17 verbose already installed skipping nopt@~2.1.2 /Users/Anastasia/ballin-ironman/npm
+18 verbose already installed skipping request@~2.27.0 /Users/Anastasia/ballin-ironman/npm
+19 verbose already installed skipping which@1 /Users/Anastasia/ballin-ironman/npm
+20 verbose already installed skipping fstream@~0.1.23 /Users/Anastasia/ballin-ironman/npm
+21 verbose already installed skipping tar@~0.1.18 /Users/Anastasia/ballin-ironman/npm
+22 verbose already installed skipping block-stream@0.0.7 /Users/Anastasia/ballin-ironman/npm
+23 verbose already installed skipping mkdirp@~0.3.3 /Users/Anastasia/ballin-ironman/npm
+24 verbose already installed skipping read@~1.0.4 /Users/Anastasia/ballin-ironman/npm
+25 verbose already installed skipping node-gyp@~0.10.10 /Users/Anastasia/ballin-ironman/npm
+26 verbose already installed skipping lru-cache@~2.3.1 /Users/Anastasia/ballin-ironman/npm
+27 verbose already installed skipping fstream-npm@~0.1.3 /Users/Anastasia/ballin-ironman/npm
+28 verbose already installed skipping uid-number@0 /Users/Anastasia/ballin-ironman/npm
+29 verbose already installed skipping archy@0 /Users/Anastasia/ballin-ironman/npm
+30 verbose already installed skipping npmlog@0.0.4 /Users/Anastasia/ballin-ironman/npm
+31 verbose already installed skipping chownr@0 /Users/Anastasia/ballin-ironman/npm
+32 verbose already installed skipping ansi@~0.1.2 /Users/Anastasia/ballin-ironman/npm
+33 verbose already installed skipping npm-registry-client@~0.2.28 /Users/Anastasia/ballin-ironman/npm
+34 verbose already installed skipping read-package-json@~1.1.3 /Users/Anastasia/ballin-ironman/npm
+35 verbose already installed skipping read-installed@~0.2.2 /Users/Anastasia/ballin-ironman/npm
+36 verbose already installed skipping init-package-json@0.0.11 /Users/Anastasia/ballin-ironman/npm
+37 verbose already installed skipping glob@~3.2.6 /Users/Anastasia/ballin-ironman/npm
+38 verbose already installed skipping osenv@0 /Users/Anastasia/ballin-ironman/npm
+39 verbose already installed skipping lockfile@~0.4.0 /Users/Anastasia/ballin-ironman/npm
+40 verbose already installed skipping once@~1.1.1 /Users/Anastasia/ballin-ironman/npm
+41 verbose already installed skipping retry@~0.6.0 /Users/Anastasia/ballin-ironman/npm
+42 verbose already installed skipping npmconf@~0.1.2 /Users/Anastasia/ballin-ironman/npm
+43 verbose already installed skipping opener@~1.3.0 /Users/Anastasia/ballin-ironman/npm
+44 verbose already installed skipping chmodr@~0.1.0 /Users/Anastasia/ballin-ironman/npm
+45 verbose already installed skipping sha@~1.2.1 /Users/Anastasia/ballin-ironman/npm
+46 verbose already installed skipping cmd-shim@~1.0.1 /Users/Anastasia/ballin-ironman/npm
+47 verbose already installed skipping editor@0.0.4 /Users/Anastasia/ballin-ironman/npm
+48 verbose already installed skipping child-process-close@~0.1.1 /Users/Anastasia/ballin-ironman/npm
+49 verbose already installed skipping npm-user-validate@0.0.3 /Users/Anastasia/ballin-ironman/npm
+50 verbose cache add [ 'ronn@~0.3.6', null ]
+51 verbose cache add name=undefined spec="ronn@~0.3.6" args=["ronn@~0.3.6",null]
+52 verbose parsed url { protocol: null,
+52 verbose parsed url   slashes: null,
+52 verbose parsed url   auth: null,
+52 verbose parsed url   host: null,
+52 verbose parsed url   port: null,
+52 verbose parsed url   hostname: null,
+52 verbose parsed url   hash: null,
+52 verbose parsed url   search: null,
+52 verbose parsed url   query: null,
+52 verbose parsed url   pathname: 'ronn@~0.3.6',
+52 verbose parsed url   path: 'ronn@~0.3.6',
+52 verbose parsed url   href: 'ronn@~0.3.6' }
+53 verbose cache add name="ronn" spec="~0.3.6" args=["ronn","~0.3.6"]
+54 verbose parsed url { protocol: null,
+54 verbose parsed url   slashes: null,
+54 verbose parsed url   auth: null,
+54 verbose parsed url   host: null,
+54 verbose parsed url   port: null,
+54 verbose parsed url   hostname: null,
+54 verbose parsed url   hash: null,
+54 verbose parsed url   search: null,
+54 verbose parsed url   query: null,
+54 verbose parsed url   pathname: '~0.3.6',
+54 verbose parsed url   path: '~0.3.6',
+54 verbose parsed url   href: '~0.3.6' }
+55 verbose addNamed [ 'ronn', '~0.3.6' ]
+56 verbose addNamed [ null, '>=0.3.6-0 <0.4.0-0' ]
+57 verbose already installed skipping github-url-from-git@1.1.1 /Users/Anastasia/ballin-ironman/npm
+58 silly lockFile ec8ea1ff-ronn-0-3-6 ronn@~0.3.6
+59 verbose lock ronn@~0.3.6 /Users/Anastasia/.npm/ec8ea1ff-ronn-0-3-6.lock
+60 verbose cache add [ 'tap@~0.4.0', null ]
+61 verbose cache add name=undefined spec="tap@~0.4.0" args=["tap@~0.4.0",null]
+62 verbose parsed url { protocol: null,
+62 verbose parsed url   slashes: null,
+62 verbose parsed url   auth: null,
+62 verbose parsed url   host: null,
+62 verbose parsed url   port: null,
+62 verbose parsed url   hostname: null,
+62 verbose parsed url   hash: null,
+62 verbose parsed url   search: null,
+62 verbose parsed url   query: null,
+62 verbose parsed url   pathname: 'tap@~0.4.0',
+62 verbose parsed url   path: 'tap@~0.4.0',
+62 verbose parsed url   href: 'tap@~0.4.0' }
+63 verbose cache add name="tap" spec="~0.4.0" args=["tap","~0.4.0"]
+64 verbose parsed url { protocol: null,
+64 verbose parsed url   slashes: null,
+64 verbose parsed url   auth: null,
+64 verbose parsed url   host: null,
+64 verbose parsed url   port: null,
+64 verbose parsed url   hostname: null,
+64 verbose parsed url   hash: null,
+64 verbose parsed url   search: null,
+64 verbose parsed url   query: null,
+64 verbose parsed url   pathname: '~0.4.0',
+64 verbose parsed url   path: '~0.4.0',
+64 verbose parsed url   href: '~0.4.0' }
+65 verbose addNamed [ 'tap', '~0.4.0' ]
+66 verbose addNamed [ null, '>=0.4.0-0 <0.5.0-0' ]
+67 silly lockFile 73ff30e4-tap-0-4-0 tap@~0.4.0
+68 verbose lock tap@~0.4.0 /Users/Anastasia/.npm/73ff30e4-tap-0-4-0.lock
+69 verbose cache add [ 'npm-registry-mock@~0.4.1', null ]
+70 verbose cache add name=undefined spec="npm-registry-mock@~0.4.1" args=["npm-registry-mock@~0.4.1",null]
+71 verbose parsed url { protocol: null,
+71 verbose parsed url   slashes: null,
+71 verbose parsed url   auth: null,
+71 verbose parsed url   host: null,
+71 verbose parsed url   port: null,
+71 verbose parsed url   hostname: null,
+71 verbose parsed url   hash: null,
+71 verbose parsed url   search: null,
+71 verbose parsed url   query: null,
+71 verbose parsed url   pathname: 'npm-registry-mock@~0.4.1',
+71 verbose parsed url   path: 'npm-registry-mock@~0.4.1',
+71 verbose parsed url   href: 'npm-registry-mock@~0.4.1' }
+72 verbose cache add name="npm-registry-mock" spec="~0.4.1" args=["npm-registry-mock","~0.4.1"]
+73 verbose parsed url { protocol: null,
+73 verbose parsed url   slashes: null,
+73 verbose parsed url   auth: null,
+73 verbose parsed url   host: null,
+73 verbose parsed url   port: null,
+73 verbose parsed url   hostname: null,
+73 verbose parsed url   hash: null,
+73 verbose parsed url   search: null,
+73 verbose parsed url   query: null,
+73 verbose parsed url   pathname: '~0.4.1',
+73 verbose parsed url   path: '~0.4.1',
+73 verbose parsed url   href: '~0.4.1' }
+74 verbose addNamed [ 'npm-registry-mock', '~0.4.1' ]
+75 verbose addNamed [ null, '>=0.4.1-0 <0.5.0-0' ]
+76 silly lockFile da2fb65c-npm-registry-mock-0-4-1 npm-registry-mock@~0.4.1
+77 verbose lock npm-registry-mock@~0.4.1 /Users/Anastasia/.npm/da2fb65c-npm-registry-mock-0-4-1.lock
+78 silly addNameRange { name: 'ronn', range: '>=0.3.6-0 <0.4.0-0', hasData: false }
+79 silly addNameRange { name: 'tap', range: '>=0.4.0-0 <0.5.0-0', hasData: false }
+80 silly addNameRange { name: 'npm-registry-mock',
+80 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+80 silly addNameRange   hasData: false }
+81 verbose url raw tap
+82 verbose url resolving [ 'https://registry.npmjs.org/', './tap' ]
+83 verbose url resolved https://registry.npmjs.org/tap
+84 info trying registry request attempt 1 at 21:27:09
+85 http GET https://registry.npmjs.org/tap
+86 verbose url raw npm-registry-mock
+87 verbose url resolving [ 'https://registry.npmjs.org/', './npm-registry-mock' ]
+88 verbose url resolved https://registry.npmjs.org/npm-registry-mock
+89 info trying registry request attempt 1 at 21:27:09
+90 http GET https://registry.npmjs.org/npm-registry-mock
+91 verbose url raw ronn
+92 verbose url resolving [ 'https://registry.npmjs.org/', './ronn' ]
+93 verbose url resolved https://registry.npmjs.org/ronn
+94 info trying registry request attempt 1 at 21:27:09
+95 verbose etag "5CXLRZQ18I87O95IBXNBS7MDN"
+96 http GET https://registry.npmjs.org/ronn
+97 http 304 https://registry.npmjs.org/ronn
+98 silly registry.get cb [ 304,
+98 silly registry.get   { server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+98 silly registry.get     etag: '"5CXLRZQ18I87O95IBXNBS7MDN"',
+98 silly registry.get     date: 'Wed, 02 Oct 2013 01:27:12 GMT',
+98 silly registry.get     'content-length': '0' } ]
+99 verbose etag ronn from cache
+100 silly addNameRange number 2 { name: 'ronn', range: '>=0.3.6-0 <0.4.0-0', hasData: true }
+101 silly addNameRange versions [ 'ronn',
+101 silly addNameRange   [ '0.3.3', '0.3.4', '0.3.5', '0.3.6', '0.3.7', '0.3.8', '0.4.0' ] ]
+102 verbose addNamed [ 'ronn', '0.3.8' ]
+103 verbose addNamed [ '0.3.8', '0.3.8' ]
+104 silly lockFile a0659530-ronn-0-3-8 ronn@0.3.8
+105 verbose lock ronn@0.3.8 /Users/Anastasia/.npm/a0659530-ronn-0-3-8.lock
+106 silly lockFile 5109a494-ry-npmjs-org-ronn-ronn-0-3-8-tgz https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz
+107 verbose lock https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz /Users/Anastasia/.npm/5109a494-ry-npmjs-org-ronn-ronn-0-3-8-tgz.lock
+108 verbose addRemoteTarball [ 'https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz',
+108 verbose addRemoteTarball   'f01a51856f46cca68988ef53e6334c59a934234a' ]
+109 info retry fetch attempt 1 at 21:27:10
+110 verbose fetch to= /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz
+111 http GET https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz
+112 http 200 https://registry.npmjs.org/npm-registry-mock
+113 silly registry.get cb [ 200,
+113 silly registry.get   { vary: 'Accept',
+113 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+113 silly registry.get     etag: '"5OEFUFZ7MJGG6QG01TMWPDMI8"',
+113 silly registry.get     date: 'Wed, 02 Oct 2013 01:27:12 GMT',
+113 silly registry.get     'content-type': 'application/json',
+113 silly registry.get     'content-length': '20424' } ]
+114 silly addNameRange number 2 { name: 'npm-registry-mock',
+114 silly addNameRange   range: '>=0.4.1-0 <0.5.0-0',
+114 silly addNameRange   hasData: true }
+115 silly addNameRange versions [ 'npm-registry-mock',
+115 silly addNameRange   [ '0.1.0', '0.2.0', '0.3.0', '0.4.0', '0.4.1', '0.5.0', '0.5.1' ] ]
+116 verbose addNamed [ 'npm-registry-mock', '0.4.1' ]
+117 verbose addNamed [ '0.4.1', '0.4.1' ]
+118 silly lockFile 52e5a964-npm-registry-mock-0-4-1 npm-registry-mock@0.4.1
+119 verbose lock npm-registry-mock@0.4.1 /Users/Anastasia/.npm/52e5a964-npm-registry-mock-0-4-1.lock
+120 silly lockFile 10cbb235-mock-npm-registry-mock-0-4-1-tgz https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz
+121 verbose lock https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz /Users/Anastasia/.npm/10cbb235-mock-npm-registry-mock-0-4-1-tgz.lock
+122 verbose addRemoteTarball [ 'https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz',
+122 verbose addRemoteTarball   'fab5540feaa54e8e4548cd34c0bf5e6f91e92e22' ]
+123 info retry fetch attempt 1 at 21:27:10
+124 verbose fetch to= /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz
+125 http GET https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz
+126 http 200 https://registry.npmjs.org/tap
+127 silly registry.get cb [ 200,
+127 silly registry.get   { vary: 'Accept',
+127 silly registry.get     server: 'CouchDB/1.3.1 (Erlang OTP/R15B03)',
+127 silly registry.get     etag: '"AQ50QCI8EELK3A2TSSQPQ70K"',
+127 silly registry.get     date: 'Wed, 02 Oct 2013 01:27:12 GMT',
+127 silly registry.get     'content-type': 'application/json',
+127 silly registry.get     'content-length': '106727' } ]
+128 silly addNameRange number 2 { name: 'tap', range: '>=0.4.0-0 <0.5.0-0', hasData: true }
+129 silly addNameRange versions [ 'tap',
+129 silly addNameRange   [ '0.0.1',
+129 silly addNameRange     '0.0.2',
+129 silly addNameRange     '0.0.3',
+129 silly addNameRange     '0.0.4',
+129 silly addNameRange     '0.0.5',
+129 silly addNameRange     '0.0.6',
+129 silly addNameRange     '0.0.7',
+129 silly addNameRange     '0.0.8',
+129 silly addNameRange     '0.0.9',
+129 silly addNameRange     '0.0.10',
+129 silly addNameRange     '0.0.11',
+129 silly addNameRange     '0.0.12',
+129 silly addNameRange     '0.0.13',
+129 silly addNameRange     '0.0.14',
+129 silly addNameRange     '0.1.0',
+129 silly addNameRange     '0.1.1',
+129 silly addNameRange     '0.1.2',
+129 silly addNameRange     '0.1.3',
+129 silly addNameRange     '0.1.4',
+129 silly addNameRange     '0.2.0',
+129 silly addNameRange     '0.2.1',
+129 silly addNameRange     '0.2.2',
+129 silly addNameRange     '0.2.3',
+129 silly addNameRange     '0.2.4',
+129 silly addNameRange     '0.2.5',
+129 silly addNameRange     '0.2.6',
+129 silly addNameRange     '0.3.0',
+129 silly addNameRange     '0.3.1',
+129 silly addNameRange     '0.3.2',
+129 silly addNameRange     '0.3.3',
+129 silly addNameRange     '0.4.0',
+129 silly addNameRange     '0.4.1',
+129 silly addNameRange     '0.4.2',
+129 silly addNameRange     '0.4.3',
+129 silly addNameRange     '0.4.4' ] ]
+130 verbose addNamed [ 'tap', '0.4.4' ]
+131 verbose addNamed [ '0.4.4', '0.4.4' ]
+132 silly lockFile cde01291-tap-0-4-4 tap@0.4.4
+133 verbose lock tap@0.4.4 /Users/Anastasia/.npm/cde01291-tap-0-4-4.lock
+134 silly lockFile 0d6288fc-stry-npmjs-org-tap-tap-0-4-4-tgz https://registry.npmjs.org/tap/-/tap-0.4.4.tgz
+135 verbose lock https://registry.npmjs.org/tap/-/tap-0.4.4.tgz /Users/Anastasia/.npm/0d6288fc-stry-npmjs-org-tap-tap-0-4-4-tgz.lock
+136 verbose addRemoteTarball [ 'https://registry.npmjs.org/tap/-/tap-0.4.4.tgz',
+136 verbose addRemoteTarball   '122ee7afee3fc7f327660a4fda1e5ac9db2b7714' ]
+137 info retry fetch attempt 1 at 21:27:10
+138 verbose fetch to= /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz
+139 http GET https://registry.npmjs.org/tap/-/tap-0.4.4.tgz
+140 http 200 https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz
+141 http 200 https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz
+142 verbose tar unpack /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz
+143 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+144 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package /Users/Anastasia/.npm/bc54a976-30157-0-6879873741418123-package.lock
+145 silly lockFile ee46c184-30157-0-6879873741418123-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz
+146 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz /Users/Anastasia/.npm/ee46c184-30157-0-6879873741418123-tmp-tgz.lock
+147 silly gunzTarPerm modes [ '755', '644' ]
+148 silly gunzTarPerm extractEntry README.md
+149 silly gunzTarPerm extractEntry CHANGES
+150 silly gunzTarPerm extractEntry LICENSE
+151 silly gunzTarPerm extractEntry TODO
+152 silly gunzTarPerm extractEntry .npmignore
+153 silly gunzTarPerm extractEntry package.json
+154 silly gunzTarPerm extractEntry bin/ronn.js
+155 silly gunzTarPerm extractEntry lib/ronn.js
+156 silly gunzTarPerm extractEntry lib/ext/markdown.js
+157 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+158 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+159 silly lockFile ee46c184-30157-0-6879873741418123-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz
+160 silly lockFile ee46c184-30157-0-6879873741418123-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/tmp.tgz
+161 verbose tar pack [ '/Users/Anastasia/.npm/ronn/0.3.8/package.tgz',
+161 verbose tar pack   '/var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package' ]
+162 verbose tarball /Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+163 verbose folder /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+164 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+165 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package /Users/Anastasia/.npm/bc54a976-30157-0-6879873741418123-package.lock
+166 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+167 verbose lock tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz /Users/Anastasia/.npm/ab932d92-tasia-npm-ronn-0-3-8-package-tgz.lock
+168 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+169 silly lockFile bc54a976-30157-0-6879873741418123-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230157-0.6879873741418123/package
+170 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+171 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+172 silly lockFile e6f11c00-Anastasia-npm-ronn-0-3-8-package /Users/Anastasia/.npm/ronn/0.3.8/package
+173 verbose lock /Users/Anastasia/.npm/ronn/0.3.8/package /Users/Anastasia/.npm/e6f11c00-Anastasia-npm-ronn-0-3-8-package.lock
+174 silly lockFile e6f11c00-Anastasia-npm-ronn-0-3-8-package /Users/Anastasia/.npm/ronn/0.3.8/package
+175 silly lockFile e6f11c00-Anastasia-npm-ronn-0-3-8-package /Users/Anastasia/.npm/ronn/0.3.8/package
+176 verbose tar unpack /Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+177 silly lockFile 56fae505-Anastasia-npm-ronn-0-3-8-package tar:///Users/Anastasia/.npm/ronn/0.3.8/package
+178 verbose lock tar:///Users/Anastasia/.npm/ronn/0.3.8/package /Users/Anastasia/.npm/56fae505-Anastasia-npm-ronn-0-3-8-package.lock
+179 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+180 verbose lock tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz /Users/Anastasia/.npm/ab932d92-tasia-npm-ronn-0-3-8-package-tgz.lock
+181 silly gunzTarPerm modes [ '755', '644' ]
+182 silly gunzTarPerm extractEntry package.json
+183 silly gunzTarPerm extractEntry .npmignore
+184 silly gunzTarPerm extractEntry README.md
+185 silly gunzTarPerm extractEntry LICENSE
+186 silly gunzTarPerm extractEntry CHANGES
+187 silly gunzTarPerm extractEntry TODO
+188 silly gunzTarPerm extractEntry bin/ronn.js
+189 silly gunzTarPerm extractEntry lib/ronn.js
+190 silly gunzTarPerm extractEntry lib/ext/markdown.js
+191 silly lockFile 56fae505-Anastasia-npm-ronn-0-3-8-package tar:///Users/Anastasia/.npm/ronn/0.3.8/package
+192 silly lockFile 56fae505-Anastasia-npm-ronn-0-3-8-package tar:///Users/Anastasia/.npm/ronn/0.3.8/package
+193 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+194 silly lockFile ab932d92-tasia-npm-ronn-0-3-8-package-tgz tar:///Users/Anastasia/.npm/ronn/0.3.8/package.tgz
+195 verbose chmod /Users/Anastasia/.npm/ronn/0.3.8/package.tgz 644
+196 verbose chown /Users/Anastasia/.npm/ronn/0.3.8/package.tgz [ 501, 20 ]
+197 silly lockFile 5109a494-ry-npmjs-org-ronn-ronn-0-3-8-tgz https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz
+198 silly lockFile 5109a494-ry-npmjs-org-ronn-ronn-0-3-8-tgz https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz
+199 silly lockFile a0659530-ronn-0-3-8 ronn@0.3.8
+200 silly lockFile a0659530-ronn-0-3-8 ronn@0.3.8
+201 silly lockFile ec8ea1ff-ronn-0-3-6 ronn@~0.3.6
+202 silly lockFile ec8ea1ff-ronn-0-3-6 ronn@~0.3.6
+203 http 200 https://registry.npmjs.org/tap/-/tap-0.4.4.tgz
+204 verbose tar unpack /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz
+205 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+206 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package /Users/Anastasia/.npm/192fb592-30676-0-9578883196227252-package.lock
+207 silly lockFile 84cbcc5a-30676-0-9578883196227252-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz
+208 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz /Users/Anastasia/.npm/84cbcc5a-30676-0-9578883196227252-tmp-tgz.lock
+209 silly gunzTarPerm modes [ '755', '644' ]
+210 silly gunzTarPerm extractEntry package.json
+211 silly gunzTarPerm extractEntry .npmignore
+212 silly gunzTarPerm extractEntry README.md
+213 silly gunzTarPerm extractEntry LICENSE
+214 silly gunzTarPerm extractEntry bin/tap-http.js
+215 silly gunzTarPerm extractEntry bin/tap-reader.js
+216 silly gunzTarPerm extractEntry bin/tap.js
+217 silly gunzTarPerm extractEntry coverage-example/lib/bar.js
+218 silly gunzTarPerm extractEntry coverage-example/lib/foo.js
+219 silly gunzTarPerm extractEntry coverage-example/test/bar.test.js
+220 silly gunzTarPerm extractEntry coverage-example/test/baz.test.js
+221 silly gunzTarPerm extractEntry coverage-example/test/foo.test.js
+222 silly gunzTarPerm extractEntry AUTHORS
+223 silly gunzTarPerm extractEntry lib/main.js
+224 silly gunzTarPerm extractEntry lib/tap-browser-harness.js
+225 silly gunzTarPerm extractEntry lib/tap-consumer.js
+226 silly gunzTarPerm extractEntry lib/tap-cov-html.js
+227 silly gunzTarPerm extractEntry lib/tap-assert.js
+228 silly gunzTarPerm extractEntry lib/tap-harness.js
+229 silly gunzTarPerm extractEntry lib/tap-producer.js
+230 silly gunzTarPerm extractEntry lib/tap-results.js
+231 silly gunzTarPerm extractEntry lib/tap-runner.js
+232 silly gunzTarPerm extractEntry lib/tap-test.js
+233 silly gunzTarPerm extractEntry lib/tap-global-harness.js
+234 silly gunzTarPerm extractEntry test/buffer_compare.js
+235 silly gunzTarPerm extractEntry test/expose-gc-test.js
+236 silly gunzTarPerm extractEntry test/independent-timeouts.js
+237 silly gunzTarPerm extractEntry test/isolated-conf-test.js
+238 silly gunzTarPerm extractEntry test/meta-test.js
+239 silly gunzTarPerm extractEntry test/timeout.js
+240 silly gunzTarPerm extractEntry test/common.js
+241 silly gunzTarPerm extractEntry test/test-test.js
+242 silly gunzTarPerm extractEntry test/output-childtest-description.js
+243 silly gunzTarPerm extractEntry test/result-trap.js
+244 silly gunzTarPerm extractEntry test/segv.js
+245 silly gunzTarPerm extractEntry test/trivial-success.js
+246 silly gunzTarPerm extractEntry test/simple-harness-test-with-plan.js
+247 silly gunzTarPerm extractEntry test/deep.js
+248 silly gunzTarPerm extractEntry test/simple-harness-test.js
+249 silly gunzTarPerm extractEntry test/nested-test.js
+250 silly gunzTarPerm extractEntry test/undefined_indented.js
+251 silly gunzTarPerm extractEntry test/non-tap-output.js
+252 silly gunzTarPerm extractEntry test/not-executed.sh
+253 silly gunzTarPerm extractEntry test/executed.sh
+254 silly gunzTarPerm extractEntry test/end-exception/t.js
+255 silly gunzTarPerm extractEntry test-disabled/bailout.js
+256 silly gunzTarPerm extractEntry test-disabled/foo.js
+257 silly gunzTarPerm extractEntry test-disabled/t.js
+258 silly gunzTarPerm extractEntry example/lib/math.js
+259 silly gunzTarPerm extractEntry example/test/test-example.js
+260 silly gunzTarPerm extractEntry node_modules/inherits/package.json
+261 silly gunzTarPerm extractEntry node_modules/inherits/README.md
+262 silly gunzTarPerm extractEntry node_modules/inherits/LICENSE
+263 silly gunzTarPerm extractEntry node_modules/inherits/inherits.js
+264 silly gunzTarPerm extractEntry node_modules/inherits/inherits_browser.js
+265 silly gunzTarPerm extractEntry node_modules/inherits/test.js
+266 silly gunzTarPerm extractEntry node_modules/yamlish/package.json
+267 silly gunzTarPerm extractEntry node_modules/yamlish/README.md
+268 silly gunzTarPerm extractEntry node_modules/yamlish/LICENSE
+269 silly gunzTarPerm extractEntry node_modules/yamlish/yamlish.js
+270 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+271 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+272 silly lockFile 84cbcc5a-30676-0-9578883196227252-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz
+273 silly lockFile 84cbcc5a-30676-0-9578883196227252-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/tmp.tgz
+274 verbose tar pack [ '/Users/Anastasia/.npm/tap/0.4.4/package.tgz',
+274 verbose tar pack   '/var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package' ]
+275 verbose tarball /Users/Anastasia/.npm/tap/0.4.4/package.tgz
+276 verbose folder /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+277 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+278 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package /Users/Anastasia/.npm/192fb592-30676-0-9578883196227252-package.lock
+279 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+280 verbose lock tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz /Users/Anastasia/.npm/3c28c437-stasia-npm-tap-0-4-4-package-tgz.lock
+281 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+282 silly lockFile 192fb592-30676-0-9578883196227252-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230676-0.9578883196227252/package
+283 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+284 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+285 silly lockFile 48029ac8--Anastasia-npm-tap-0-4-4-package /Users/Anastasia/.npm/tap/0.4.4/package
+286 verbose lock /Users/Anastasia/.npm/tap/0.4.4/package /Users/Anastasia/.npm/48029ac8--Anastasia-npm-tap-0-4-4-package.lock
+287 silly lockFile 48029ac8--Anastasia-npm-tap-0-4-4-package /Users/Anastasia/.npm/tap/0.4.4/package
+288 silly lockFile 48029ac8--Anastasia-npm-tap-0-4-4-package /Users/Anastasia/.npm/tap/0.4.4/package
+289 verbose tar unpack /Users/Anastasia/.npm/tap/0.4.4/package.tgz
+290 silly lockFile 160d250b--Anastasia-npm-tap-0-4-4-package tar:///Users/Anastasia/.npm/tap/0.4.4/package
+291 verbose lock tar:///Users/Anastasia/.npm/tap/0.4.4/package /Users/Anastasia/.npm/160d250b--Anastasia-npm-tap-0-4-4-package.lock
+292 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+293 verbose lock tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz /Users/Anastasia/.npm/3c28c437-stasia-npm-tap-0-4-4-package-tgz.lock
+294 silly gunzTarPerm modes [ '755', '644' ]
+295 silly gunzTarPerm extractEntry package.json
+296 silly gunzTarPerm extractEntry .npmignore
+297 silly gunzTarPerm extractEntry README.md
+298 silly gunzTarPerm extractEntry LICENSE
+299 silly gunzTarPerm extractEntry bin/tap-http.js
+300 silly gunzTarPerm extractEntry bin/tap-reader.js
+301 silly gunzTarPerm extractEntry bin/tap.js
+302 silly gunzTarPerm extractEntry coverage-example/lib/bar.js
+303 silly gunzTarPerm extractEntry coverage-example/lib/foo.js
+304 silly gunzTarPerm extractEntry coverage-example/test/bar.test.js
+305 silly gunzTarPerm extractEntry coverage-example/test/baz.test.js
+306 silly gunzTarPerm extractEntry coverage-example/test/foo.test.js
+307 silly gunzTarPerm extractEntry AUTHORS
+308 silly gunzTarPerm extractEntry lib/main.js
+309 silly gunzTarPerm extractEntry lib/tap-browser-harness.js
+310 silly gunzTarPerm extractEntry lib/tap-consumer.js
+311 silly gunzTarPerm extractEntry lib/tap-cov-html.js
+312 silly gunzTarPerm extractEntry lib/tap-assert.js
+313 silly gunzTarPerm extractEntry lib/tap-harness.js
+314 silly gunzTarPerm extractEntry lib/tap-producer.js
+315 silly gunzTarPerm extractEntry lib/tap-results.js
+316 silly gunzTarPerm extractEntry lib/tap-runner.js
+317 silly gunzTarPerm extractEntry lib/tap-test.js
+318 silly gunzTarPerm extractEntry lib/tap-global-harness.js
+319 silly gunzTarPerm extractEntry test/buffer_compare.js
+320 silly gunzTarPerm extractEntry test/expose-gc-test.js
+321 silly gunzTarPerm extractEntry test/independent-timeouts.js
+322 silly gunzTarPerm extractEntry test/isolated-conf-test.js
+323 silly gunzTarPerm extractEntry test/meta-test.js
+324 silly gunzTarPerm extractEntry test/timeout.js
+325 silly gunzTarPerm extractEntry test/common.js
+326 silly gunzTarPerm extractEntry test/test-test.js
+327 silly gunzTarPerm extractEntry test/output-childtest-description.js
+328 silly gunzTarPerm extractEntry test/result-trap.js
+329 silly gunzTarPerm extractEntry test/segv.js
+330 silly gunzTarPerm extractEntry test/trivial-success.js
+331 silly gunzTarPerm extractEntry test/simple-harness-test-with-plan.js
+332 silly gunzTarPerm extractEntry test/deep.js
+333 silly gunzTarPerm extractEntry test/simple-harness-test.js
+334 silly gunzTarPerm extractEntry test/nested-test.js
+335 silly gunzTarPerm extractEntry test/undefined_indented.js
+336 silly gunzTarPerm extractEntry test/non-tap-output.js
+337 silly gunzTarPerm extractEntry test/not-executed.sh
+338 silly gunzTarPerm extractEntry test/executed.sh
+339 silly gunzTarPerm extractEntry test/end-exception/t.js
+340 silly gunzTarPerm extractEntry test-disabled/bailout.js
+341 silly gunzTarPerm extractEntry test-disabled/foo.js
+342 silly gunzTarPerm extractEntry test-disabled/t.js
+343 silly gunzTarPerm extractEntry example/lib/math.js
+344 silly gunzTarPerm extractEntry example/test/test-example.js
+345 silly gunzTarPerm extractEntry node_modules/inherits/package.json
+346 silly gunzTarPerm extractEntry node_modules/inherits/README.md
+347 silly gunzTarPerm extractEntry node_modules/inherits/LICENSE
+348 silly gunzTarPerm extractEntry node_modules/inherits/inherits.js
+349 silly gunzTarPerm extractEntry node_modules/inherits/inherits_browser.js
+350 silly gunzTarPerm extractEntry node_modules/inherits/test.js
+351 silly gunzTarPerm extractEntry node_modules/yamlish/package.json
+352 silly gunzTarPerm extractEntry node_modules/yamlish/README.md
+353 silly gunzTarPerm extractEntry node_modules/yamlish/LICENSE
+354 silly gunzTarPerm extractEntry node_modules/yamlish/yamlish.js
+355 silly lockFile 160d250b--Anastasia-npm-tap-0-4-4-package tar:///Users/Anastasia/.npm/tap/0.4.4/package
+356 silly lockFile 160d250b--Anastasia-npm-tap-0-4-4-package tar:///Users/Anastasia/.npm/tap/0.4.4/package
+357 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+358 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+359 verbose chmod /Users/Anastasia/.npm/tap/0.4.4/package.tgz 644
+360 verbose chown /Users/Anastasia/.npm/tap/0.4.4/package.tgz [ 501, 20 ]
+361 silly lockFile 0d6288fc-stry-npmjs-org-tap-tap-0-4-4-tgz https://registry.npmjs.org/tap/-/tap-0.4.4.tgz
+362 silly lockFile 0d6288fc-stry-npmjs-org-tap-tap-0-4-4-tgz https://registry.npmjs.org/tap/-/tap-0.4.4.tgz
+363 silly lockFile cde01291-tap-0-4-4 tap@0.4.4
+364 silly lockFile cde01291-tap-0-4-4 tap@0.4.4
+365 silly lockFile 73ff30e4-tap-0-4-0 tap@~0.4.0
+366 silly lockFile 73ff30e4-tap-0-4-0 tap@~0.4.0
+367 verbose tar unpack /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz
+368 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+369 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package /Users/Anastasia/.npm/27f0970b-277-0-008805912686511874-package.lock
+370 silly lockFile 3f6ea1b1-277-0-008805912686511874-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz
+371 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz /Users/Anastasia/.npm/3f6ea1b1-277-0-008805912686511874-tmp-tgz.lock
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm extractEntry .npmignore
+375 silly gunzTarPerm extractEntry README.md
+376 silly gunzTarPerm extractEntry LICENSE
+377 silly gunzTarPerm extractEntry index.js
+378 silly gunzTarPerm extractEntry .travis.yml
+379 silly gunzTarPerm extractEntry fixtures/request/-/request-0.9.0.tgz
+380 silly gunzTarPerm extractEntry fixtures/request/-/request-0.9.5.tgz
+381 silly gunzTarPerm extractEntry fixtures/request/-/request-2.27.0.tgz
+382 silly gunzTarPerm extractEntry fixtures/request/0.9.0.json
+383 silly gunzTarPerm extractEntry fixtures/request/latest.json
+384 silly gunzTarPerm extractEntry fixtures/request.json
+385 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.3.1.tgz
+386 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.3.3.tgz
+387 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.5.1.tgz
+388 silly gunzTarPerm extractEntry fixtures/underscore/1.3.1.json
+389 silly gunzTarPerm extractEntry fixtures/underscore/1.3.3.json
+390 silly gunzTarPerm extractEntry fixtures/underscore/latest.json
+391 silly gunzTarPerm extractEntry fixtures/underscore.json
+392 silly gunzTarPerm extractEntry lib/predefines.js
+393 silly gunzTarPerm extractEntry test/server.js
+394 silly gunzTarPerm extractEntry test/fixtures/async/-/async-0.1.0.tgz
+395 silly gunzTarPerm extractEntry test/fixtures/async/0.1.0.json
+396 silly gunzTarPerm extractEntry test/mocha.opts
+397 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+398 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+399 silly lockFile 3f6ea1b1-277-0-008805912686511874-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz
+400 silly lockFile 3f6ea1b1-277-0-008805912686511874-tmp-tgz tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/tmp.tgz
+401 verbose tar pack [ '/Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz',
+401 verbose tar pack   '/var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package' ]
+402 verbose tarball /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+403 verbose folder /var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+404 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+405 verbose lock tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package /Users/Anastasia/.npm/27f0970b-277-0-008805912686511874-package.lock
+406 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+407 verbose lock tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz /Users/Anastasia/.npm/a373ae44--registry-mock-0-4-1-package-tgz.lock
+408 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+409 silly lockFile 27f0970b-277-0-008805912686511874-package tar:///var/folders/j_/_y1vbgh10y7f723t9060br6r0000gn/T/npm-12269-vNYAs7RD/1380677230277-0.008805912686511874/package
+410 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+411 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+412 silly lockFile 87912dd7--npm-registry-mock-0-4-1-package /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+413 verbose lock /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package /Users/Anastasia/.npm/87912dd7--npm-registry-mock-0-4-1-package.lock
+414 silly lockFile 87912dd7--npm-registry-mock-0-4-1-package /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+415 silly lockFile 87912dd7--npm-registry-mock-0-4-1-package /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+416 verbose tar unpack /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+417 silly lockFile 4ad57506--npm-registry-mock-0-4-1-package tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+418 verbose lock tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package /Users/Anastasia/.npm/4ad57506--npm-registry-mock-0-4-1-package.lock
+419 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+420 verbose lock tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz /Users/Anastasia/.npm/a373ae44--registry-mock-0-4-1-package-tgz.lock
+421 silly gunzTarPerm modes [ '755', '644' ]
+422 silly gunzTarPerm extractEntry package.json
+423 silly gunzTarPerm extractEntry .npmignore
+424 silly gunzTarPerm extractEntry README.md
+425 silly gunzTarPerm extractEntry LICENSE
+426 silly gunzTarPerm extractEntry index.js
+427 silly gunzTarPerm extractEntry .travis.yml
+428 silly gunzTarPerm extractEntry fixtures/request/-/request-0.9.0.tgz
+429 silly gunzTarPerm extractEntry fixtures/request/-/request-0.9.5.tgz
+430 silly gunzTarPerm extractEntry fixtures/request/-/request-2.27.0.tgz
+431 silly gunzTarPerm extractEntry fixtures/request/0.9.0.json
+432 silly gunzTarPerm extractEntry fixtures/request/latest.json
+433 silly gunzTarPerm extractEntry fixtures/request.json
+434 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.3.1.tgz
+435 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.3.3.tgz
+436 silly gunzTarPerm extractEntry fixtures/underscore/-/underscore-1.5.1.tgz
+437 silly gunzTarPerm extractEntry fixtures/underscore/1.3.1.json
+438 silly gunzTarPerm extractEntry fixtures/underscore/1.3.3.json
+439 silly gunzTarPerm extractEntry fixtures/underscore/latest.json
+440 silly gunzTarPerm extractEntry fixtures/underscore.json
+441 silly gunzTarPerm extractEntry lib/predefines.js
+442 silly gunzTarPerm extractEntry test/server.js
+443 silly gunzTarPerm extractEntry test/fixtures/async/-/async-0.1.0.tgz
+444 silly gunzTarPerm extractEntry test/fixtures/async/0.1.0.json
+445 silly gunzTarPerm extractEntry test/mocha.opts
+446 silly lockFile 4ad57506--npm-registry-mock-0-4-1-package tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+447 silly lockFile 4ad57506--npm-registry-mock-0-4-1-package tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package
+448 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+449 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+450 verbose chmod /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz 644
+451 verbose chown /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz [ 501, 20 ]
+452 silly lockFile 10cbb235-mock-npm-registry-mock-0-4-1-tgz https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz
+453 silly lockFile 10cbb235-mock-npm-registry-mock-0-4-1-tgz https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz
+454 silly lockFile 52e5a964-npm-registry-mock-0-4-1 npm-registry-mock@0.4.1
+455 silly lockFile 52e5a964-npm-registry-mock-0-4-1 npm-registry-mock@0.4.1
+456 silly lockFile da2fb65c-npm-registry-mock-0-4-1 npm-registry-mock@~0.4.1
+457 silly lockFile da2fb65c-npm-registry-mock-0-4-1 npm-registry-mock@~0.4.1
+458 silly resolved [ { name: 'ronn',
+458 silly resolved     version: '0.3.8',
+458 silly resolved     description: 'markdown to roff and html converter',
+458 silly resolved     keywords: [ 'markdown', 'roff', 'man', 'documentation' ],
+458 silly resolved     main: 'lib/ronn',
+458 silly resolved     directories: { lib: 'lib' },
+458 silly resolved     engines: { node: '>=0.4' },
+458 silly resolved     bin: { ronn: './bin/ronn.js' },
+458 silly resolved     dependencies: { opts: '>=1.2.0' },
+458 silly resolved     contributors: [ [Object], [Object] ],
+458 silly resolved     licenses: [ [Object] ],
+458 silly resolved     repositories: [ [Object] ],
+458 silly resolved     readme: 'ronnjs(1) -- markdown to roff/html converter\n=======================================\n\n## Synopsis\n\nJavascript port of [ronn], using [markdown-js] to produce roff man pages.\nNot fully compatible with [ronn], although it aims to be, wherever possible.\n\n## Usage\n\nThis outputs doc.roff from a markdown file :\n\n\tronn.js --build --roff doc.md\n\nCommand-line options are listed with --help\n\nWhen file argument is omitted, ronn.js reads standard input.\n\n\n## How it works ?\n\n[markdown-js] parses markdown text to a document model, which in turn is\nused to ouput a man page.\n\n\n[ronn]: \t\thttp://github.com/rtomayko/ronn\n[markdown-js]:\thttp://github.com/evilstreak/markdown-js\n',
+458 silly resolved     readmeFilename: 'README.md',
+458 silly resolved     repository: { type: 'git', url: 'http://github.com/kapouer/ronnjs' },
+458 silly resolved     bugs: { url: 'https://github.com/kapouer/ronnjs/issues' },
+458 silly resolved     _id: 'ronn@0.3.8',
+458 silly resolved     dist: { shasum: '072631a8ce695c00316cc28f766ef3399ed0221c' },
+458 silly resolved     _from: 'ronn@~0.3.6',
+458 silly resolved     _resolved: 'https://registry.npmjs.org/ronn/-/ronn-0.3.8.tgz' },
+458 silly resolved   { name: 'tap',
+458 silly resolved     version: '0.4.4',
+458 silly resolved     author:
+458 silly resolved      { name: 'Isaac Z. Schlueter',
+458 silly resolved        email: 'i@izs.me',
+458 silly resolved        url: 'http://blog.izs.me' },
+458 silly resolved     description: 'A Test-Anything-Protocol library',
+458 silly resolved     bin: { tap: 'bin/tap.js' },
+458 silly resolved     main: 'lib/main.js',
+458 silly resolved     dependencies:
+458 silly resolved      { inherits: '*',
+458 silly resolved        yamlish: '*',
+458 silly resolved        slide: '*',
+458 silly resolved        runforcover: '~0.0.2',
+458 silly resolved        nopt: '~2',
+458 silly resolved        mkdirp: '~0.3',
+458 silly resolved        difflet: '~0.2.0',
+458 silly resolved        'deep-equal': '~0.0.0',
+458 silly resolved        'buffer-equal': '~0.0.0',
+458 silly resolved        glob: '~3.2.1' },
+458 silly resolved     keywords: [ 'assert', 'test', 'tap' ],
+458 silly resolved     contributors: [ [Object], [Object] ],
+458 silly resolved     license:
+458 silly resolved      { type: 'MIT',
+458 silly resolved        url: 'https://github.com/isaacs/node-tap/raw/master/LICENSE' },
+458 silly resolved     repository: { type: 'git', url: 'git://github.com/isaacs/node-tap.git' },
+458 silly resolved     scripts: { test: 'bin/tap.js test/*.js' },
+458 silly resolved     readme: 'This is a mix-and-match set of utilities that you can use to write test\nharnesses and frameworks that communicate with one another using the\nTest Anything Protocol.\n\nIf you don\'t yet know what TAP is, [you better ask\nsomebody](http://testanything.org/).\n\nDefault Usage:\n\n1. Make a directory.  Maybe call it \'test\'.  That\'d be nice and obvious.\n2. Put a bunch of test scripts in there.  If they\'re node programs, then\n   they should be ".js".  Anything else is assumed to be some kind of shell\n   script, which should have a shebang line.\n3. `npm install tap`\n4. Update package.json scripts.test to include `tap ./test` [example\n   gist](https://gist.github.com/4469613)\n5. `npm test`\n\nThe output will be TAP-compliant.\n\nFor extra special bonus points, you can do something like this:\n\n    var test = require("tap").test\n    test("make sure the thingie is a thing", function (t) {\n      t.equal(thingie, "thing", "thingie should be thing")\n      t.type(thingie, "string", "type of thingie is string")\n      t.ok(true, "this is always true")\n      t.notOk(false, "this is never true")\n      t.test("a child test", function (t) {\n        t.equal(this, superEasy, "right!?")\n        t.similar(7, 2, "ever notice 7 is kinda like 2?", {todo: true})\n        t.test("so skippable", {skip: true}, function (t) {\n          t.plan(1) // only one test in this block\n          t.ok(true, "but when the flag changes, it\'ll pass")\n          // no need to end, since we had a plan.\n        })\n        t.end()\n      })\n      t.ok(99, "can also skip individual assertions", {skip: true})\n      // end lets it know it\'s over.\n      t.end()\n    })\n    test("another one", function (t) {\n      t.plan(1)\n      t.ok(true, "It\'s ok to plan, and also end.  Watch.")\n      t.end() // but it must match the plan!\n    })\n\nNode-tap is actually a collection of several modules, any of which may be\nmixed and matched however you please.\n\nIf you don\'t like this test framework, and think you can do much much\nbetter, *I strongly encourage you to do so!*  If you use this library,\nhowever, at least to output TAP-compliant results when `process.env.TAP`\nis set, then the data coming out of your framework will be much more\nconsumable by machines.\n\nYou can also use this to build programs that *consume* the TAP data, so\nthis is very useful for CI systems and such.\n\n* tap-assert: A collection of assert functions that return TAP result\n  objects.\n* tap-consumer: A stream interface for consuming TAP data.\n* tap-producer: A class that produces a TAP stream by taking in result\n  objects.\n* tap-results: A class for keeping track of TAP result objects as they\n  pass by, counting up skips, passes, fails, and so on.\n* tap-runner: A program that runs through a directory running all the\n  tests in it.  (Tests which may or may not be TAP-outputting tests.  But\n  it\'s better if they are.)\n* tap-test: A class for actually running tests.\n* tap-harness: A class that runs tests.  (Tests are also Harnesses,\n  which is how sub-tests run.)\n* tap-global-harness: A default harness that provides the top-level\n  support for running TAP tests.\n\n## Experimental Code Coverage with runforcover & bunker:\n\n```\nTAP_COV=1 tap ./test [--cover=./lib,foo.js] [--cover-dir=./coverage]\n```\n\nThis feature is experimental, and will most likely change somewhat\nbefore being finalized.  Feedback welcome.\n',
+458 silly resolved     readmeFilename: 'README.md',
+458 silly resolved     bugs: { url: 'https://github.com/isaacs/node-tap/issues' },
+458 silly resolved     bundleDependencies: [ 'inherits', 'tap-consumer', 'yamlish' ],
+458 silly resolved     _id: 'tap@0.4.4',
+458 silly resolved     dist: { shasum: '6a4b278c9ca6f7edceb3d7652ec7d25e73b0f6b7' },
+458 silly resolved     _from: 'tap@~0.4.0',
+458 silly resolved     _resolved: 'https://registry.npmjs.org/tap/-/tap-0.4.4.tgz' },
+458 silly resolved   { name: 'npm-registry-mock',
+458 silly resolved     version: '0.4.1',
+458 silly resolved     description: 'mock the npm registry',
+458 silly resolved     main: 'index.js',
+458 silly resolved     scripts: { test: 'mocha -R spec' },
+458 silly resolved     dependencies: { hock: '~0.2.0' },
+458 silly resolved     devDependencies:
+458 silly resolved      { mocha: '~1.12.0',
+458 silly resolved        'npm-registry-client': '*',
+458 silly resolved        request: '~2.22.0',
+458 silly resolved        npm: '*',
+458 silly resolved        rimraf: '~2.2.0',
+458 silly resolved        mkdirp: '~0.3.5' },
+458 silly resolved     repository:
+458 silly resolved      { type: 'git',
+458 silly resolved        url: 'git@github.com:robertkowalski/npm-registry-mock.git' },
+458 silly resolved     author: { name: 'Robert Kowalski', email: 'rok@kowalski.gd' },
+458 silly resolved     license: 'BSD',
+458 silly resolved     bugs: { url: 'https://github.com/robertkowalski/npm-registry-mock/issues' },
+458 silly resolved     keywords: [ 'npm', 'registry', 'testing' ],
+458 silly resolved     readme: '[![Build Status](https://travis-ci.org/robertkowalski/npm-registry-mock.png?branch=master)](https://travis-ci.org/robertkowalski/npm-registry-mock)\n[![Dependency Status](https://gemnasium.com/robertkowalski/npm-registry-mock.png)](https://gemnasium.com/robertkowalski/npm-registry-mock)\n\n#npm-registry-mock\n\n\n##Usage\n\nCurrently mocked packages are:\n\n`underscore` at 1.3.1, 1.3.3 and 1.5.1 while version 1.5.1 is the latest in this mocked registry.\n\n`request` at 0.9.0, 0.9.5 and 2.27.0 while version 2.27.0 is the latest in this mocked registry.\n\n\nInstalling underscore 1.3.1:\n\n```javascript\nvar mr = require("npm-registry-mock")\n\nmr(1331, function (s) {\n  npm.load({registry: "http://localhost:1331"}, function () {\n    npm.commands.install("/tmp", "underscore@1.3.1", function (err) {\n      // assert npm behaves right...\n      s.close() // shutdown server\n    })\n  })\n})\n```\n\nDefining custom mock routes:\n\n```javascript\nvar mr = require("npm-registry-mock")\n\nvar customMocks = {\n  "get": {\n    "/mypackage": [500, {"ente" : true}]\n  }\n}\n\nmr({port: 1331, mocks: customMocks}, function (s) {\n  npm.load({registry: "http://localhost:1331"}, function () {\n    npm.commands.install("/tmp", "mypackage", function (err) {\n      // assert npm behaves right with an 500 error as response...\n      s.close() // shutdown server\n    })\n  })\n})\n```\n\n##Todo\n\n - extending the routes with the custom ones, no complete overrides\n\n - add more use-cases',
+458 silly resolved     readmeFilename: 'README.md',
+458 silly resolved     _id: 'npm-registry-mock@0.4.1',
+458 silly resolved     dist: { shasum: 'fab5540feaa54e8e4548cd34c0bf5e6f91e92e22' },
+458 silly resolved     _from: 'npm-registry-mock@~0.4.1',
+458 silly resolved     _resolved: 'https://registry.npmjs.org/npm-registry-mock/-/npm-registry-mock-0.4.1.tgz' } ]
+459 info install ronn@0.3.8 into /Users/Anastasia/ballin-ironman/npm
+460 info install tap@0.4.4 into /Users/Anastasia/ballin-ironman/npm
+461 info install npm-registry-mock@0.4.1 into /Users/Anastasia/ballin-ironman/npm
+462 info installOne ronn@0.3.8
+463 info installOne tap@0.4.4
+464 info installOne npm-registry-mock@0.4.1
+465 info /Users/Anastasia/ballin-ironman/npm/node_modules/tap unbuild
+466 info /Users/Anastasia/ballin-ironman/npm/node_modules/npm-registry-mock unbuild
+467 info /Users/Anastasia/ballin-ironman/npm/node_modules/ronn unbuild
+468 info preuninstall ronn@0.4.0
+469 info uninstall ronn@0.4.0
+470 verbose tar unpack /Users/Anastasia/.npm/tap/0.4.4/package.tgz
+471 silly lockFile d68aa895-lin-ironman-npm-node-modules-tap tar:///Users/Anastasia/ballin-ironman/npm/node_modules/tap
+472 verbose lock tar:///Users/Anastasia/ballin-ironman/npm/node_modules/tap /Users/Anastasia/.npm/d68aa895-lin-ironman-npm-node-modules-tap.lock
+473 silly lockFile 3c28c437-stasia-npm-tap-0-4-4-package-tgz tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz
+474 verbose lock tar:///Users/Anastasia/.npm/tap/0.4.4/package.tgz /Users/Anastasia/.npm/3c28c437-stasia-npm-tap-0-4-4-package-tgz.lock
+475 verbose tar unpack /Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+476 silly lockFile 649dbe74-m-node-modules-npm-registry-mock tar:///Users/Anastasia/ballin-ironman/npm/node_modules/npm-registry-mock
+477 verbose lock tar:///Users/Anastasia/ballin-ironman/npm/node_modules/npm-registry-mock /Users/Anastasia/.npm/649dbe74-m-node-modules-npm-registry-mock.lock
+478 silly lockFile a373ae44--registry-mock-0-4-1-package-tgz tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz
+479 verbose lock tar:///Users/Anastasia/.npm/npm-registry-mock/0.4.1/package.tgz /Users/Anastasia/.npm/a373ae44--registry-mock-0-4-1-package-tgz.lock
+480 verbose true,/Users/Anastasia/ballin-ironman/npm/node_modules,/Users/Anastasia/ballin-ironman/npm/node_modules unbuild ronn@0.4.0
+481 verbose /Users/Anastasia/ballin-ironman/npm/node_modules/.bin,[object Object] binRoot
+482 silly gunzTarPerm modes [ '755', '644' ]
+483 silly gunzTarPerm modes [ '755', '644' ]
+484 info /Users/Anastasia/ballin-ironman/npm/node_modules/ronn unbuild
+485 silly gunzTarPerm extractEntry package.json
+486 silly gunzTarPerm extractEntry package.json
+487 info preuninstall ronn@0.4.0
+488 info uninstall ronn@0.4.0
+489 silly gunzTarPerm extractEntry .npmignore
+490 silly gunzTarPerm extractEntry README.md
+491 silly gunzTarPerm extractEntry .npmignore
+492 silly gunzTarPerm extractEntry README.md
+493 verbose true,/Users/Anastasia/ballin-ironman/npm/node_modules,/Users/Anastasia/ballin-ironman/npm/node_modules unbuild ronn@0.4.0
+494 verbose /Users/Anastasia/ballin-ironman/npm/node_modules/.bin,[object Object] binRoot
+495 error error rolling back Error: EACCES, unlink '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn'
+495 error error rolling back  ronn@0.3.8 { [Error: EACCES, unlink '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn']
+495 error error rolling back   errno: 3,
+495 error error rolling back   code: 'EACCES',
+495 error error rolling back   path: '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn' }
+496 error Error: EACCES, unlink '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn'
+496 error  { [Error: EACCES, unlink '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn']
+496 error   errno: 3,
+496 error   code: 'EACCES',
+496 error   path: '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn' }
+497 error Please try running this command again as root/Administrator.
+498 error System Darwin 12.5.0
+499 error command "node" "/usr/local/bin/npm" "install"
+500 error cwd /Users/Anastasia/ballin-ironman/npm
+501 error node -v v0.10.4
+502 error npm -v 1.3.11
+503 error path /Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn
+504 error code EACCES
+505 error errno 3
+506 error stack Error: EACCES, unlink '/Users/Anastasia/ballin-ironman/npm/node_modules/.bin/ronn'
+507 verbose exit [ 3, true ]
